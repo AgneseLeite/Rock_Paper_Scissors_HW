@@ -1,0 +1,23 @@
+{
+    "ROCK PAPER SCISSORS": "じゃんけん",
+    "BRING IT ON": "ゲームを開始する",
+    "Player": "プレーヤー",
+    "Computer": "コンピュータ",
+    "Score": "スコア",
+    "Winner": "勝者",
+    "Beats": "ビート",
+    "Rock": "岩",
+    "Paper": "紙",
+    "Scissors": "鋏",
+    "Play": "遊ぶ",
+    "both equal": "どちらも等しい",
+    "DRAW": "描く",
+    "ROCK BEATS SCISSORS": "ロックビートシザーズ",
+    "SCISSORS BEATS PAPER": "はさみは紙を打ち負かす",
+    "PAPER BEATS ROCK": "紙はロックを打ち負かす",
+    "Rock paper scissors is a game recognizible by other orderings of the three items.": "じゃんけんは、3つのアイテムの他の順序によって認識できるゲームです。",
+    "It is also known as Rochambeau, roshambo, or ro-sham-bo.": "ロシャンボー、ロシャンボ、またはロシャンボーとしても知られています。",
+    "It is a hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand.": "これは、通常2人の間でプレイされるハンドゲームであり、各プレーヤーは手を伸ばして3つの形状のいずれかを同時に形成します。",
+    "These shapes are -rock- (a closed fist), -paper- (a flat hand), and -scissors- (a fist with the index finger and middle finger extended, forming a V).": "これらの形状は、-ロック-(閉じた拳)、-紙-(平らな手)、および-はさみ-(人差し指と中指を伸ばしてV字を形成する拳)です。",
+    "The earliest form of -rock paper scissors-style game originated in China and was imported into Japan, where it reached its modern standardized form, before being spread throughout the world in the early 20th century.": "じゃんけんスタイルのゲームの最も初期の形式は、中国で始まり、日本に輸入され、20世紀初頭に世界中に普及する前に、現代の標準化された形式に達しました."
+}

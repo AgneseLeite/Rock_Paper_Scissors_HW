@@ -1,0 +1,142 @@
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  
+  .titleContainer {
+    background-color: rgb(184, 232, 243);
+    border-radius: 8px;
+    padding: .8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .scoreContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .scoreHeading {
+    margin-top: 0;
+    padding: 20px 0;
+    background-color: #327d8c;
+    color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  
+  .score {
+    width: 12.5rem;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .results {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.25rem;
+    height: 12.5rem;
+  }
+  
+  .playerChoice,
+  .computerChoice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(184, 232, 243);
+    width: 12.5rem;
+    height: 10rem;
+    border-radius: 8px;
+  }
+  
+  .winner {
+    font-size: 2.2rem;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  
+  .winnerMessage {
+    font-size: 1.6rem;
+    color: antiquewhite;
+  }
+  
+  .choiceBtnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+    margin-top: -3.5rem;
+  }
+  
+  .choiceBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .choiceBtn:hover {
+      transform: rotate(15deg);
+      transition: all .2s ease-in-out;
+  }
+  
+  .choiceBtn:active,
+  .playBtn:active {
+    transform: scale(0.94);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    transition: .2s;
+  }
+  
+  .playBtn {
+    background-color: rgb(230, 237, 37);
+    padding: 10px 30px;
+    margin-top: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .activeChoice {
+    background-color: #b0da73;
+  }
+  
+  .timer {
+    color: rgb(230, 237, 37);
+    font-size: 10rem;
+    margin-top: 1rem;
+  }
+  
+  .playerHand {
+    animation: playerHandAnimation .8s ease-in-out infinite;
+  }
+  
+  .computerHand {
+      animation: computerHandAnimation .8s ease-in-out infinite;
+    }
+  
+  @keyframes playerHandAnimation {
+    0%,
+    100% {
+      transform: rotate(100deg);
+    }
+    50% {
+      transform: rotate(80deg);
+    }
+  }
+  
+  @keyframes computerHandAnimation {
+      0%,
+      100% {
+        transform: scaleY(-1) rotate(-80deg);
+      }
+      50% {
+        transform: scaleY(-1) rotate(-100deg);
+      }
+    }
